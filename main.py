@@ -44,7 +44,7 @@ time_list = [8, 10, 13, 15, 17, 19, 22]
 set_push = [True, True, True, True, True, True, True]
 
 # 最小步数（如果只需要刷步的次数少于7次就将该次数以后的步数全都改成0，如：time_list[3]: 0，表示第五次开始不运行或者直接云函数触发里面不在该时间调用均可（建议用后者））
-min_dict = {time_list[0]: 1600, time_list[1]: 3000, time_list[2]: 5000, time_list[3]: 6300, time_list[4]: 7400, time_list[5]: 12000, time_list[6]: 29888}
+min_dict = {time_list[0]: 1600, time_list[1]: 3000, time_list[2]: 5000, time_list[3]: 6300, time_list[4]: 7400, time_list[5]: 12000, time_list[6]: 32999}
 # 最大步数（例如现在设置意思是在8点（你设置的第一个时间点默认8）运行会在1500到2999中随机生成一个数提交（开启气候降低步数会乘系数K）10点3000~4999。。。以此类推，步数范围建议看懂了再改，没看懂直接默认就好）
 max_dict = {time_list[0]: 1999, time_list[1]: 3999, time_list[2]: 5299, time_list[3]: 6399, time_list[4]: 7499, time_list[5]: 15999, time_list[6]: 34999}
 # 设置结束
